@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Find Sum and Average</title>
+  </head>
+  <body>
+    <h2 style="text-align: center">
+      Write a program in any language to read 10 numbers from keyboard and find
+      their sum and average.
+    </h2>
+    <hr />
+    <h3>CPP Code:</h3>
+    <pre>
+    <code>
+      #include <bits/stdc++.h>
+      using namespace std;
+
+      // driver code
+      int main()
+      {
+          int arr[10];
+          cout << "Enter 10 numbers: \n";
+          for(int i=0;i<10;i++)
+              cin>>arr[i];
+          int ans;
+          for(int i=0;i<10;i++)
+              ans+=arr[i];
+          cout << " Sum is: " << ans << endl;
+          cout<< "Average of Given 10 Numbers: "<< ans/10.0 << endl;
+          return 0;
+      }
+    </code>
+    </pre>
+    <hr />
+    <section>
+      <kbd>
+        Enter 10 numbers:
+        <br />
+        8 52 3 109 35 19 44 58 13 77
+      </kbd>
+    </section>
+    <hr />
+    <section>
+      <samp>Sum is: 418</samp>
+      <br />
+      <samp>Average is: 41.8</samp>
+    </section>
+    <hr />
+    <section>
+      <var>used variables: arr[] </var>
+    </section>
+    <hr />
+    <section>
+      <p>Time Complexity: O(N)</p>
+    </section>
+    <hr />
+    <section>
+      <div>
+        Referance :
+        <a
+          href="https://www.geeksforgeeks.org/program-average-array-iterative-recursive/"
+          target="blank"
+        >
+          Link for the Problem
+        </a>
+      </div>
+    </section>
+    <hr />
+   
+  </body>
+</html>
