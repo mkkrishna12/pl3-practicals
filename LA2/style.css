@@ -409,3 +409,30 @@ body {
 		font-size: 70%;
 	}
 } 
+.contact-me {
+	border-style: double;
+	border-radius: 10px;
+	border-width: 5px;
+
+	padding-left: 15px;
+}
+
+input[type='text'],input[type='email'] ,textarea {
+	width: 50%;
+	align-content: center;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+input[type='submit'] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;  
+}
